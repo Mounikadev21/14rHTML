@@ -1,0 +1,93 @@
+<html>
+
+
+<title>login Form</title>
+
+
+<body>
+    <h1 align="center">Login form</h1>
+    
+    <form method="post">
+        <label for="n"><b>Name :</b> </label>
+        <input placeholder="Enter Your Name" type="text" id="n" name="n" />
+        <br><br>
+        <label><b>Gender :</b> </label>
+        <input id="male" type="radio" name="Gender">
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="Gender">
+        <label for="female">Female</label>
+    <br><br>
+        <label><b>Mobile Number : </b></label>
+        <input type="tel" pattern="[0-9]{10}"><br><br>
+        <label><b>E-Mail : </b></label>
+        <input type="email"><br><br>
+<label><b>Date & Time</b></label>
+<input type="datetime-local">
+
+        <br><br><label for="a"><b>Address :</b> </label>
+        <input type="text" id="a" name="Street" />
+<br><br>
+        <label><b>pin code</b></label>
+        <input type="tel" pattern="[0-9]{6}" />
+        <br><br>
+
+        <label><b>District</b></label>
+        <select type="dropdown" name="District">
+            <option value="Amaravathi"></option>
+            <option value="Anantapur">Anantapur</option>
+            <option value="Srikakulam">Srikakulam</option>
+            <option value="Vizag">Vizag</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Amaravathi">Amaravathi</option>
+        </select>
+        <label><b>State</b></label>
+        <select type="dropdown" name="State">
+            <option value=""></option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="TS">Telangana</option>
+            <option value="TN">Tamilnadu</option>
+            <option value="KA">Karnataka</option>
+            <option value="KR">Kerala</option>
+        </select><br><br>
+
+        <label><b>course: </b></label>
+        <select type="dropdown" name="course">
+            <option value=""></option>
+            <option value="ECE">ECE</option>
+            <option value="CE">CE</option>
+            <option value="MECHANICAL">MECHANICAL</option>
+            <option value="CSE">CSE</option>
+            <option value="CIVIL">CIVIL</option>
+            </select>
+        
+
+        <label><b>Skills : </b></label>
+        <select type="dropdown" name="Skills">
+            <option value=""></option>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        
+        </select><br><br>
+
+        <label><b>Password : </b></label>
+        <input type="password" pattern="[0-9]{5,}">
+
+        <br><br>
+
+        <label><b>Confirm Password : </b></label>
+        <input type="password" pattern="[0-9]{5,}">
+
+       <br><br> <label><b>Drop Your File : </b></label>
+        <input type="file">
+
+
+       
+
+<br><br><input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
